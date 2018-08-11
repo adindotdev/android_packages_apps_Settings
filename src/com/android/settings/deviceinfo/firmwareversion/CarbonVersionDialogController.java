@@ -69,7 +69,8 @@ public class CarbonVersionDialogController implements View.OnClickListener {
 
             final Intent intent = new Intent(Intent.ACTION_MAIN)
                     .setClassName(
-                            "android", com.android.internal.app.CarbonLogoActivity.class.getName());
+                            "android", com.android.internal.app
+                                    .carboneasteregg.CarbonEasterEgg.class.getName());
             try {
                 mContext.startActivity(intent);
             } catch (Exception e) {
